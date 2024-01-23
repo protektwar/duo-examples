@@ -19,6 +19,7 @@ CFLAGS += -I$(SYSROOT)/usr/include
 LDFLAGS += -L$(SYSROOT)/lib
 LDFLAGS += -L$(SYSROOT)/usr/lib
 LDFLAGS += -lwiringx
+LDFLAGS += -lm
 
 SOURCE = $(wildcard *.c)
 OBJS = $(patsubst %.c,%.o,$(SOURCE))

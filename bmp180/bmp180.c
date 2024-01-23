@@ -4,7 +4,7 @@
 
 #include <wiringx.h>
 
-#include <bmp180.h>
+#include "bmp180.h"
 #include <math.h>
 
 int bmp180_setup(int oversampling)

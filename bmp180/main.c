@@ -6,7 +6,7 @@
 
 #include <wiringx.h>
 
-#include <bmp180.h>
+#include "bmp180.h"
 
 unsigned long __stack_chk_guard;
 
