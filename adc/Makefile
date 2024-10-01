@@ -1,4 +1,4 @@
-TARGET=mailbox_test
+TARGET=adcRead
 
 ifeq (,$(TOOLCHAIN_PREFIX))
 $(error TOOLCHAIN_PREFIX is not set)
@@ -34,4 +34,3 @@ clean:
 	@rm *.o -rf
 	@rm $(OBJS) -rf
 	@rm $(TARGET)
-

@@ -1,4 +1,4 @@
-TARGET=mailbox_test
+TARGET=ssd1306_i2c
 
 ifeq (,$(TOOLCHAIN_PREFIX))
 $(error TOOLCHAIN_PREFIX is not set)

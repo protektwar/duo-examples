@@ -1,4 +1,4 @@
-TARGET=mailbox_test
+TARGET=pwm
 
 ifeq (,$(TOOLCHAIN_PREFIX))
 $(error TOOLCHAIN_PREFIX is not set)

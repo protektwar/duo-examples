@@ -1,4 +1,4 @@
-TARGET=mailbox_test
+TARGET=tcs34725_i2c
 
 ifeq (,$(TOOLCHAIN_PREFIX))
 $(error TOOLCHAIN_PREFIX is not set)
@@ -15,6 +15,7 @@ endif
 CC = $(TOOLCHAIN_PREFIX)gcc
 
 CFLAGS += -I$(SYSROOT)/usr/include
+CFLAGS += -I./
 
 LDFLAGS += -L$(SYSROOT)/lib
 LDFLAGS += -L$(SYSROOT)/usr/lib

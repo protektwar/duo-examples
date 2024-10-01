@@ -1,4 +1,4 @@
-TARGET=mailbox_test
+TARGET=lcm2004_i2c
 
 ifeq (,$(TOOLCHAIN_PREFIX))
 $(error TOOLCHAIN_PREFIX is not set)
